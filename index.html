@@ -1,0 +1,316 @@
+<!doctype html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <style>
+        section {
+            padding: 60px 0;
+        }
+    </style>
+    <title>Formation HTML/CSS</title>
+</head>
+<body>
+<!--    Barre de navigation-->
+<header>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary nav-link">
+        <div class="container-fluid">
+            <a class="navbar-brand"><i class="bi bi-playstation"></i> Abonement Playstation</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="true" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse  "  id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 ">
+                    <a class="nav-link active" href="#presentation" aria-current="false">
+                        À propos
+                    </a>
+                    <a class="nav-link active"  href="#avis" aria-expanded="false">
+                        Avis
+                    </a>
+                    <a class="nav-link active" href="#contact"  aria-expanded="false">
+                        Contact
+                    </a>
+                    <a class=" nav-link active btn btn-secondary text-white" href="#tarifs"  aria-expanded="false">
+                        Acheter maintenant
+                    </a>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+<main>
+    <!--    Présentation-->
+    <section id="presentation">
+        <div class="container text-center ">
+            <div class="row">
+                <div class="col mt-2 ps-3 pe-3">
+                    <h1>Playstation</h1>
+                    <h2>L'abonnement ultime</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta eaque, earum eveniet fuga molestiae
+                        molestias nam quo quod ratione recusandae saepe vel veniam. Autem deleniti deserunt eligendi labore
+                        qui sunt?
+                    </p>
+                        <a class="btn btn-secondary text-decoration-none text-white" href="#tarifs">Acheter maintenant</a>
+                </div>
+                <div class="d-none d-md-block col-md-6 ">
+                    <img src="assets/images/logo_playstation.png" style="width: 400px" class="card-img-top" alt="...">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--    Tarifs-->
+    <section id="tarifs" class="bg-light mt-5 mb-5">
+        <div class="container">
+            <div class="card-group">
+                <div class="row">
+                    <h5 class="text-center">Tarifs</h5>
+                    <p class="text-center">Choisir le tarif qui vous rendra pauvre</p>
+                    <div class="col-12 col-lg-4" >
+                        <div class="card border border-2 border-secondary" >
+                            <div class="card-header text-center ">
+                                Pour les gueux
+                            </div>
+                            <h5 class="card-title text-center">
+                                Abonnement d'une seconde au PS d'argent
+                            </h5>
+                            <img src="assets/images/logo-trophee-argent.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h1>9.999 €</h1>
+                                <p class="card-text d-none d-lg-block ">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis dolorem dolores
+                                    doloribus eius et hic magnam necessitatibus rerum sapiente voluptatum!
+                                </p>
+                                <a href="#" class="btn btn-primary">Acheter</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-lg-4">
+                        <div class="card border border-2 border-warning-subtle" >
+                            <div class="card-header text-lg-center ">
+                                Le plus populaire
+                            </div>
+                            <h5 class="card-title text-center">Abonnement de 5 secondes au PS doré</h5>
+                            <img src="assets/images/logo-trophee-or.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h1>99.999 €</h1>
+                                <p class="card-text d-none d-lg-block">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis dolorem dolores
+                                    doloribus eius et hic magnam necessitatibus rerum sapiente voluptatum!
+                                </p>
+                                <a href="#" class="btn btn-primary">Acheter</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-lg-4 ">
+                        <div class="card" >
+                            <div class="card-header text-lg-center ">
+                                Pour les bourges
+                            </div>
+                            <h5 class="card-title text-center">
+                                Abonnement de 10 secondes au PS méga platine ultimate
+                            </h5>
+                            <img src="assets/images/logo-trophee-platine.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h1>999.999 €</h1>
+                                <p class="card-text d-none d-lg-block">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis dolorem dolores
+                                    doloribus eius et hic magnam necessitatibus rerum sapiente voluptatum!
+                                </p>
+                                <a href="#" class="btn btn-primary">Acheter</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--    contenu-->
+    <section id="contenu">
+        <h1 class="text-center">Informations</h1>
+        <div class="text-center fs-4">Niveaux des trophées</div>
+
+        <div class="container text-center ">
+            <div class="row">
+                <div class="col-lg">
+                    <img src="assets/images/classe_trophées.jpg" style="width: 700px" class="card-img-top" alt="...">
+                </div>
+                <div class="col-lg ">
+                    <div class="accordion" id="accordionExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    <strong>Trophées bronzes</strong>
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A ad adipisci aliquid
+                                        asperiores dolorem odit quas, quibusdam tempore! Deleniti
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    <strong>Trophées argent</strong>
+                                </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet dignissimos eius
+                                        eligendi hic nostrum nulla qui quo recusandae repellat sit!
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    <strong>Trophées or</strong>
+                                </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet atque culpa et
+                                        magnam maiores nesciunt odio quam qui quos ullam.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseThree">
+                                    <strong>Trophées platines</strong>
+                                </button>
+                            </h2>
+                            <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis consectetur
+                                        exercitationem illum odit voluptatum. Accusamus
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--    Avis-->
+    <section id="avis" class="bg-light">
+        <h3 class="text-center"> <i class="bi bi-stars"></i>Avis</h3>
+        <div class="text-center fs-5">Ce que pensent les internautes des abonnements... </div>
+        <div class="container ">
+            <div class="row">
+                <div class="list-group-item d-flex justify-content-between align-items-start border border-dark">
+                    <div class="ms-2 me-auto">
+                        <div>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-half"></i>
+                        </div>
+                        <div class="fw-bold fs-5">C'est une master classe, le pass Platine m'a permis d'avoir tout les
+                            trophées platines pendant 10 secondes pour seulement 1000 balles
+                        </div>
+                        <div class="fs-5 pb-2">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto magnam, reiciendis! Aspernatur enim
+                            facere iste omnis reprehenderit. A, dicta eius fugiat inventore iusto maiores natus odit reprehenderit sunt, unde voluptas!
+                        </div>
+                        <div class="fs-6">
+                            Avis de Dany le 31/12/01
+                        </div>
+                    </div>
+                </div>
+                <div class="list-group-item d-flex justify-content-between align-items-start border border-dark mt-2 mb-2">
+                    <div class="ms-2 me-auto">
+                        <div>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star"></i>
+                        </div>
+                        <div class="fw-bold fs-5">J'adore possèder tout les trophées bronzes</div>
+                        <div class="fs-5 pb-2">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto magnam, reiciendis! Aspernatur enim
+                            facere iste omnis reprehenderit. A, dicta eius fugiat inventore iusto maiores natus odit reprehenderit sunt, unde voluptas!
+                        </div>
+                        <div class="fs-6">
+                            Avis de Clément le 01/01/00
+                        </div>
+                    </div>
+                </div>
+
+                <div class="list-group-item d-flex justify-content-between align-items-start border border-dark">
+                    <div class="ms-2 me-auto">
+                        <div>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star"></i>
+                            <i class="bi bi-star"></i>
+                            <i class="bi bi-star"></i>
+                            <i class="bi bi-star"></i>
+                        </div>
+                        <div class="fw-bold fs-5">C'est quoi cette arnaque ? </div>
+                        <div class="fs-5 pb-2">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto magnam, reiciendis! Aspernatur enim
+                            facere iste omnis reprehenderit. A, dicta eius fugiat inventore iusto maiores natus odit reprehenderit sunt, unde voluptas!
+                        </div>
+                        <div class="fs-6">
+                            Avis de Mika le 30/02/2050
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!--    Contact-->
+    <section id="contact">
+        <h3 class="text-center">Nous contacter</h3>
+        <div class="container border border-gray ">
+            <div class="col px-2">
+                <form>
+                    <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">Adresse mail</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label">Mots de passe</label>
+                        <input type="password" class="form-control" id="exampleInputPassword1">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputContenu1" class="form-label">Contenu de la question</label>
+                        <input class="form-control" id="exampleInputContenu1">
+                    </div>
+                    <div class="mb-3 form-check">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <label class="form-check-label" for="exampleCheck1">Je ne suis pas un robot</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Envoyer</button>
+                </form>
+            </div>
+        </div>
+    </section>
+</main>
+<footer>
+
+</footer>
+<script src="assets/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
